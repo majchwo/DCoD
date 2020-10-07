@@ -18,3 +18,12 @@ DCoD system is intended to create and manage virtual L2 networks for VMs running
 4. *virtnet_proxy* VM imported to VirtualBox
 5. For Windows systems -- VBoxManage.exe tool available under *\Program Files\Oracle\Virtualbox\\* path
 
+### Network requirements
+
+1. DHCP server running in LAN network in order to assign IP address to *virtnet_proxy* VM's bridged interface
+
+
+
+## DCoD system architecture
+
+![Alt text](https://github.com/wojtaszevsky/DCoD/blob/master/dcod-architecture.png?raw=true)
