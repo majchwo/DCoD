@@ -14,7 +14,7 @@ DCoD system is intended to create and manage virtual L2 networks for VMs running
 3. VirtualBox hypervisor running
 2. SSH servers running (connection using username&password required): 
    - Windows -- Bitvise SSH server
-   - Linux -- OpenSSH 
+   - Linux -- OpenSSH server
 4. *virtnet_proxy* VM imported to VirtualBox
 5. For Windows systems -- VBoxManage.exe tool available under *\Program Files\Oracle\Virtualbox\\* path
 
@@ -32,6 +32,6 @@ DCoD system is intended to create and manage virtual L2 networks for VMs running
 Key components:
 
 1. **Hypervisor** - host with VirtualBox software running
-2. **Proxy VM** - *virtnet_proxy* VM, running on each hypervisor, responsible for overlay packets encap/decap & broadcast traffic handling etc. In other words - overlay VTEP.
+2. **Proxy VM** - *virtnet_proxy* VM, running on each hypervisor, responsible for overlay packets encap/decap & broadcast traffic handling etc. In other words - overlay VTEP
 3. **Internal network** - VirtualBox internal network created automatically for each virtual network (identified by VNI), access point to DCoD infrastructure for user's VMs
-4. **Director** - logical component, place (host) where *virtnet.py* script & monitoring server script are available. **Director** must have access to all Hyperviors (DCoD hosts) via SSH.
+4. **Director** - logical component, place (host) where *virtnet.py* script & monitoring server script are available. **Director** must have access to all Hyperviors (DCoD hosts) via SSH
