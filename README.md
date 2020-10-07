@@ -12,9 +12,9 @@ DCoD system is intended to create and manage virtual L2 networks for VMs running
 
 1. Windows or Linux system
 3. VirtualBox hypervisor running
-2. SSH servers running: 
+2. SSH servers running (connection using username&password required): 
    - Windows -- Bitvise SSH server
    - Linux -- OpenSSH 
 4. *virtnet_proxy* VM imported to VirtualBox
-5. For Windows systems -- VBoxManage.exe tool available under 
+5. For Windows systems -- VBoxManage.exe tool available under *\Program Files\Oracle\Virtualbox\\* path
 
