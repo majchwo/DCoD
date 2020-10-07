@@ -1,0 +1,15 @@
+hosts:
+  192.168.1.111:
+    os: windows
+    user: vbox
+    password: example_pw
+  192.168.1.104:
+    os: windows
+    user: vbox
+    password: example_pw
+  192.168.1.102:
+    os: linux
+    user: vbox
+    password: example_pw
+
+
