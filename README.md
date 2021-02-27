@@ -47,6 +47,7 @@ NOTE: this procedure stops all *virtnet_proxy* VMs & clears its interfaces, so t
 3. Wait until script finishes. It can take some time depending on number of hosts
 
 
+NOTE: Script uses generic password for remote command execution on proxy VMs. It is read from password file. You can manually change it directly on proxy VM. 
 
 # DCoD system architecture
 
