@@ -22,7 +22,7 @@ DCoD system is intended to create and manage virtual L2 networks for VMs running
 
 1. DHCP server running in LAN network in order to assign IP address to *virtnet_proxy* VM's bridged interface
 
-## MANUAL
+# MANUAL
 
 ### Virtual network creation
 
@@ -46,7 +46,9 @@ NOTE: this procedure stops all *virtnet_proxy* VMs & clears its interfaces, so t
 2. Run virtnet script e.g. *./virtnet.py stop-proxies -f \<hosts file\>* in order to remove virtual network with specific VNI
 3. Wait until script finishes. It can take some time depending on number of hosts
 
-## DCoD system architecture
+
+
+# DCoD system architecture
 
 ![Alt text](https://github.com/wojtaszevsky/DCoD/blob/main/dcod-architecutre.png?raw=true)
 
