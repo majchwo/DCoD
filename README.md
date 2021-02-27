@@ -68,7 +68,7 @@ Key components:
 3. **Internal network** - VirtualBox internal network created automatically for each virtual network (identified by VNI), access point to DCoD infrastructure for user's VMs
 4. **Director** - logical component, place (host) where *virtnet.py* script & monitoring server script are available. **Director** must have access to all Hyperviors (DCoD hosts) via SSH
 
-#TODO:
+# TODO:
 
 1. First of all code cleaning. I'm a network engineer, rather than programmer, still wanting to learn how to code though... :)
 2. The windows VBoxManage.exe file location is hardcoded. Should make it flexible
