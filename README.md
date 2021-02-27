@@ -8,6 +8,8 @@ DCoD system is intended to create and manage virtual L2 networks for VMs running
 1. **VxLAN** used as overlay technology
 2. **Head End Replication** mechanism used for handling boradcast traffic
 
+
+
 ### Host requirements
 
 1. Windows or Linux system
@@ -17,6 +19,8 @@ DCoD system is intended to create and manage virtual L2 networks for VMs running
    - Linux -- OpenSSH server
 4. *virtnet_proxy* VM imported to VirtualBox
 5. For Windows systems -- VBoxManage.exe tool available under *\Program Files\Oracle\Virtualbox\\* path
+6. On Director -> Python 3 with *paramiko*, *yaml*, *logging*, *time*, *argparse*, *threading*
+ 6.1. For monitoring server *Flask*, *json*, *requests*, *flask_restful*
 
 ### Network requirements
 
@@ -70,7 +74,7 @@ Key components:
 
 # TODO:
 
-1. First of all code cleaning. I'm a network engineer, rather than programmer, still wanting to learn how to code though... :)
+1. First of all code cleaning. I'm aware it is a mess. Initially it just had to work. I'm a network engineer, rather than programmer, still wanting to learn how to code though... :)
 2. The windows VBoxManage.exe file location is hardcoded. Should make it flexible
 3. Add the change of virtnet_proxy VM ssh password functionality
 4. Add the ssh keypair login functionality (both to  hosts and proxies)
