@@ -20,7 +20,7 @@ DCoD system is intended to create and manage virtual L2 networks for VMs running
 4. *virtnet_proxy* VM imported to VirtualBox
 5. For Windows systems -- VBoxManage.exe tool available under *\Program Files\Oracle\Virtualbox\\* path
 6. On Director -> Python 3 with *paramiko*, *yaml*, *logging*, *time*, *argparse*, *threading*
- 6.1. For monitoring server *Flask*, *json*, *requests*, *flask_restful*
+ <br>6.1. For monitoring server *Flask*, *json*, *requests*, *flask_restful*
 
 ### Network requirements
 
