@@ -29,13 +29,13 @@ DCoD system is intended to create and manage virtual L2 networks for VMs running
 NOTE: You do not have to manually start *virtnet_proxy* VM, if it does not run, the script automatically launches it.
 
 1. Fill in the hosts yaml file with your hypervisor hosts ip addresses, ssh credentials & OS type (windows or linux)
-2. Run virtnet script e.g. *./virtnet.py create --vni <VNI> -f <hosts file>*
+2. Run virtnet script e.g. *./virtnet.py create --vni \<VNI\> -f \<hosts file\>*
 3. Wait until script finishes. It can take some time depending on number of hosts
 
 ## Virtual network deletion
 
 1. Make sure you have valid hosts file (all hypervisors covered)
-2. Run virtnet script e.g. *./virtnet.py remove --vni <VNI> -f <hosts file>* in order to remove virtual network with specific VNI
+2. Run virtnet script e.g. *./virtnet.py remove --vni \<VNI\> -f \<hosts file\>* in order to remove virtual network with specific VNI
 3. Wait until script finishes. It can take some time depending on number of hosts
 
 ## Bring DCoD system down
@@ -43,7 +43,7 @@ NOTE: You do not have to manually start *virtnet_proxy* VM, if it does not run, 
 NOTE: this procedure stops all *virtnet_proxy* VMs & clears its interfaces, so that the Proxy is in its generic state.
 
 1. Make sure you have valid hosts file (all hypervisors covered)
-2. Run virtnet script e.g. *./virtnet.py stop-proxies -f <hosts file>* in order to remove virtual network with specific VNI
+2. Run virtnet script e.g. *./virtnet.py stop-proxies -f \<hosts file\>* in order to remove virtual network with specific VNI
 3. Wait until script finishes. It can take some time depending on number of hosts
 
 ## DCoD system architecture
